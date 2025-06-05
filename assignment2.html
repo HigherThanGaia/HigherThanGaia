@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment2</title>
+    <style>
+        tr, td, th {
+            border: 1px solid black;
+        }
+        table {
+            border-collapse: collapse;
+            margin-left: 250px;
+            margin-right: 250px;
+        }
+        body {
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .highlight1 {
+            background-color: rgb(49, 49, 241);
+            color: white;
+        }
+        .highlight2 {
+            background-color: rgb(237, 237, 109);
+        }
+        .highlight3 {
+            background-color: rgba(181, 181, 225, 0.948);
+        }
+        .highlight4 {
+            background-color: rgb(176, 129, 220);
+        }
+        .highlight5 {
+            background-color: rgb(220, 220, 237);
+        }
+        .highlight6 {
+            background-color: rgb(137, 137, 221);
+        }
+    </style>
+</head>
+<body>
+    <h1>Quarterly Project Status Update</h1>
+    <table>
+        <thead>
+            <tr>
+                <th class="highlight1" rowspan="3">Project ID</th>
+                <th class="highlight1" rowspan="3">Project Name</th>
+                <th class="highlight1" rowspan="3">Team Lead</th>
+                <th class="highlight1" colspan="4">Weekly Progress</th>
+                <th class="highlight1" rowspan="3">Current Overall Status</th>
+                <th class="highlight1" rowspan="3">Key Note/Issues</th>
+            </tr>
+
+            <tr>
+                <th class="highlight1" colspan="2">Week 1</th>
+                <th class="highlight1" colspan="2">Week 2</th>
+            </tr>
+
+            <tr>
+                <th class="highlight1">Status</th>
+                <th class="highlight1">Tasks Done</th>
+
+                <th class="highlight1">Status</th>
+                <th class="highlight1">Tasks Done</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <th class="highlight3" rowspan="3">PROJ-A01</th>
+                <th class="highlight4" rowspan="3">Website Redesign</th>
+                <td class="highlight5" rowspan="3">Aisha S.</td>
+                <td class="highlight6">On Track</td>
+                <td class="highlight5">Initial mockups approved.</td>
+                <td class="highlight6">On Track</td>
+                <td class="highlight5">Frontend dev 50% complete.</td>
+                <td class="highlight6">Green</td>
+                <td class="highlight2" rowspan="3">Client meeting scheduled for next Monday to review progress. Some minor delays on Backend integration.</td>
+            </tr>
+
+            <tr>
+                <td class="highlight5" rowspan="2" colspan="4"><b><br>Sub-task: SEO Audit</br></b> Completed Week 1: Keyword research</td>
+                <td class="highlight6" rowspan="2">Green</td>
+            </tr>
+        </tbody>
+        
+        <tbody>
+            <tr>
+                <th class="highlight3" rowspan="3">PROJ-B02</th>
+                <th class="highlight4" rowspan="3">Mobile App Dev (iOS)</th>
+                <td class="highlight5" rowspan="3">Benjamin O.</td>
+                <td class="highlight6">Delayed</td>
+                <td class="highlight5">Login module done. &nbsp;</td>
+                <td class="highlight6">Delayed</td>
+                <td class="highlight5">User profile 20% done. &nbsp; &nbsp; </td>
+                <td class="highlight6">Yellow</td>
+                <td class="highlight2" rowspan="3">Waiting for API change from backend heat. Requires re-evaluation of program. Critical path impact.</td>
+            </tr>
+
+            <tr>
+                <td class="highlight5" rowspan="2" colspan="4"><b><br>Sub-task: UI/UX Review</br></b> Feedback received and testing integrated</td>
+                <td class="highlight6" rowspan="2">Yellow</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment4</title>
+    <style>
+        tr, td, th {
+            border: 1px solid black;
+        }
+        table {
+            border-collapse: collapse;
+            margin-left: 150px;
+            margin-right: 150px;
+        }
+        body {
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .highlight10 {
+            text-align: center;
+            margin-right: auto;
+            margin-left: auto;
+        }
+        .highlight1 {
+            background-color: rgb(216, 216, 216);
+        }
+    </style>
+</head>
+<body>
+    <h1>University Course Catalog & Student Enrollment Overview - Fall 2025</h1>
+    <h3>Data last updated: May 30, 2025.</h3>
+    <table>
+        <thead>
+            <tr>
+                <th class="highlight1" rowspan="3">Department</th>
+                <th class="highlight1" rowspan="3">Course Code</th>
+                <th class="highlight1" rowspan="3">Course Title</th>
+                <th class="highlight1" colspan="6">Semester Offerings & Enrollment</th>
+                <th class="highlight1" rowspan="3">Prerequisite</th>
+                <th class="highlight1" rowspan="3">Faculty Lead</th>
+                <th class="highlight1" rowspan="3">Remarks</th>
+            </tr>
+
+            <tr>
+                <th class="highlight1" colspan="2">Monday</th>
+                <th class="highlight1" colspan="2">Wednesday</th>
+                <th class="highlight1" colspan="2">Friday</th>
+            </tr>
+
+            <tr>
+                <th class="highlight1">Time</th>
+                <th class="highlight1">Capacity/Enrolled</th>
+                <th class="highlight1">Time</th>
+                <th class="highlight1">Capacity/Enrolled</th>
+                <th class="highlight1">Time</th>
+                <th class="highlight1">Capacity/Enrolled</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td rowspan="3">Computer Science</td>
+                <td>CS101</td>
+                <td>Introduction to Programming</td>
+                <td>09:00 - 10:30</td>
+                <td>150/145</td>
+                <td>11:00 - 12:30</td>
+                <td>150/130</td>
+                <td>-</td>
+                <td>-</td>
+                <td>None</td>
+                <td>Dr. Adebayo</td>
+                <td>Core for all CS majors</td>
+            </tr>
+
+            <tr>
+                <td>CS205</td>
+                <td>Data Structure & Algorithms</td>
+                <td>-</td>
+                <td>-</td>
+                <td>09:00 - 10:30</td>
+                <td>80/75</td>
+                <td>14:00 - 15:30</td>
+                <td>80/70</td>
+                <td>CS101</td>
+                <td>Prof. Ngozi</td>
+                <td>Requires Strong Analytical Skills</td>
+            </tr>
+
+            <tr>
+                <td>CS499</td>
+                <td>Final Year Project</td>
+                <td colspan="6"><p><h2>Project Supervision Slots</h2></p>
+                    <table class="highlight10"> 
+                        <thead>
+                            <tr>
+                                <th class="highlight1">Supervisor</th>
+                                <th class="highlight1">Max Students</th>
+                                <th class="highlight1">Assigned</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td>Dr. Musa</td>
+                                <td>10</td>
+                                <td>2</td>
+                            </tr>
+
+                            <tr>
+                                <td>Prof. Okoro</td>
+                                <td>12</td>
+                                <td>10</td>
+                            </tr>
+
+                            <tr>
+                                <td>Dr. Amina</td>
+                                <td>8</td>
+                                <td>8 (full)</td>
+                            </tr>
+                         </tbody>
+                    </table>
+                    <h3>Independent study & Research with Faculty Supervision<h3>
+                </td>
+                <td>Concept of Dept.</td>
+                <td>Various Faculty</td>
+                <td>Mandatory for Graduation.</td>
+            </tr>
+
+            <tr>
+                <td rowspan="2">Electrical Engineering</td>
+                <td>EE110</td>
+                <td>Current Analysis I</td>
+                <td>10:00 - 11:30</td>
+                <td>100/95</td>
+                <td>-</td>
+                <td>-</td>
+                <td>10:00 - 11:30</td>
+                <td>100/90</td>
+                <td>MATH101</td>
+                <td>Dr. Ekene</td>
+                <td>Lab Recommended</td>
+            </tr>
+
+            <tr>
+                <td>EE330</td>
+                <td>Digital Signal Processing</td>
+                <td>13:00 - 14:30</td>
+                <td>60/55</td>
+                <td>-</td>
+                <td>-</td>
+                <td>13:00 - 14:30</td>
+                <td>60/50</td>
+                <td>EE210/MATH201</td>
+                <td>Prof. Gbenga</td>
+                <td>Advanced topic, mandated for final year</td>
+            </tr>
+
+            <tr>
+                <td rowspan="4">Mass Communication</td>
+                <td>MC105</td>
+                <td>Introduction to Communication</td>
+                <td>11:00 - 12:30</td>
+                <td>120/115</td>
+                <td>-</td>
+                <td>-</td>
+                <td>11:00 - 12:30</td>
+                <td>120/105</td>
+                <td>None</td>
+                <td>Prof. Tunde</td>
+                <td>Required for all MC Students</td>
+            </tr>
+
+            <tr>
+                <td>MC220</td>
+                <td>Modal Ethics</td>
+                <td>-</td>
+                <td>-</td>
+                <td>14:00 - 15:30</td>
+                <td>70/68</td>
+                <td>-</td>
+                <td>-</td>
+                <td>MC105</td>
+                <td>Prof. Charles</td>
+                <td>Delicate Categor</td>
+            </tr>
+
+            <tr>
+                <td>MC115</td>
+                <td>Broadcast Production</td>
+                <td colspan="6">
+                    <p>
+                        <br>
+                        Studio Session & Field Work
+                        </br>
+                        **Studio A** Tuesday & Thursday, 10:00 - 13:00 (Max 20 Students)
+                        <br>
+                        **Studio B** Wednesday & Friday, 14:00 - 17:00 (Max 20 Students)
+                        <br>
+                        Enrollment by Application Only.
+                    </p>
+                </td>
+                <td>MC105, MC220</td>
+                <td>Ms. Ifeoma</td>
+                <td>Practical, Hands-on Experience</td>
+            </tr>
+
+            <tr>
+                <td>MC400</td>
+                <td>Research Methods In Media</td>
+                <td>09:00 - 10:30</td>
+                <td>50/48</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>Any 200 level MC Course</td>
+                <td>Dr. Sani</td>
+                <td>Critical for final year project</td>
+            </tr>
+
+            <tr>
+                <td class="highlight1" colspan="12">For detailed course description, and detailed enrollment figures, please refer to our university portal
+                <br>
+                Note: course offerings and time are subject to change, please verify with your academic Supervisor
+                </td> 
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
