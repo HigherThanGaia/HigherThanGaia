@@ -1,4 +1,13 @@
-## Hi there 👋
+Hey there!!! 
+
+This Profile is constantly under active development. 👷‍♀️
+
+Debugging life and code — mostly code... I think.
+
+Lover of clean UIs. 
+
+Here to learn, break things, and maybe build something awesome along the way.
+
 
 <!--
 **HigherThanGaia/HigherThanGaia** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
